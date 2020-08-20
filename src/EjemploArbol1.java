@@ -4,7 +4,7 @@ public class EjemploArbol1 {
     public static void main(String[] args) {
        
         Nodo raiz = new Nodo(null); // creo el objeto de la clase
-        raiz.setTitulo("LIBRO"); // titulo al nodo raiz
+        raiz.setTitulo("LIBRO"); // titulo a nodo raiz
         // EMPIEZO A AÑADIR HIJOS
         // CAPITULO 1
         Nodo capitulo1 = agregarHijo(raiz, "CAPITULO 1");
